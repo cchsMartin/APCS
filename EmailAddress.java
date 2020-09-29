@@ -14,7 +14,7 @@ public class EmailAddress {
 	String middleName = keyboard.nextLine();
 	System.out.println("What is your last name?");
 	String lastName = keyboard.nextLine();
-	System.out.println("What is your birthdate?(mmddyyyy) ");
+	System.out.println("What is your birthdate?(mmddyyyy) "); //your date should be mm-dd-yyyy
 	String birthDate = keyboard.nextLine();
 	System.out.println("Email:" + lastName.toLowerCase() + firstName.substring(0,1)     + middleName.substring(0,1)+  "@sharkmail.com" );
 	System.out.println("Temp Password:"  + birthDate );
