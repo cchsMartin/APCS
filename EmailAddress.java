@@ -18,6 +18,7 @@ public class EmailAddress {
 	String birthDate = keyboard.nextLine();
 	System.out.println("Email:" + lastName.toLowerCase() + firstName.substring(0,1)     + middleName.substring(0,1)+  "@sharkmail.com" );
 	System.out.println("Temp Password:"  + birthDate );
+		//this line should do blank
 	System.out.println("*** This temporary password is very insecure. Please change it immediately!***");
    //String lastName = keyboard.nextLine();
 	
