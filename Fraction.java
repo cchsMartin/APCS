@@ -1,4 +1,4 @@
-
+// Huda Abdulle & Paola Mendizabal
 public class Fraction {
     public static int num,den;
     //constructor 
