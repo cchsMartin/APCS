@@ -1,6 +1,10 @@
 
 public class Triangle {
-double a,b,c;
+//these variables should be private
+	double a,b,c; //use more descriptive names for your instance variables.
+	
+	//you don't have a Triangle constructor. Your class will work without one, but since you have
+	//three instance variables, you should have a constructor that initializes them.
 	public double getArea() {
 		double Area = (a*b)/2.0;
 		return Area;
