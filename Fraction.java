@@ -1,6 +1,11 @@
 
 public class Fraction {
-    public static int num,den;
+    
+    //Hi Huda. Your program is excellently designed. However, because your variables are static, the creation of the last object
+    //sets the value of all previously created objects to whatever num and den are for the last object created.
+    
+    public static int num,den; //delete static. (-1 point)
+    
     //constructor 
     public Fraction () {
         num=1;
